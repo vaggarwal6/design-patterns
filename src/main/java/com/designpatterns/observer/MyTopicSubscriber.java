@@ -3,6 +3,7 @@ package com.designpatterns.observer;
 public class MyTopicSubscriber implements ISubscriber {
 
     private IPublisher publisher;
+    private String name = "MyTopicSubscriber";
 
     //Setting the publisher also to the consumer
     public MyTopicSubscriber(IPublisher publisher){
